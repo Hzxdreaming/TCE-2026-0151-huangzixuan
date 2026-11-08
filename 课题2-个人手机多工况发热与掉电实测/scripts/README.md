@@ -4,7 +4,7 @@
 
 | 脚本 | 何时跑 | 期望 |
 |------|--------|------|
-| `scan_secrets.sh` | **`git add 课题2/` 之后、commit 之前，必跑** | 各扫描段无命中，图片 EXIF 全为 0 |
+| `scan_secrets.sh` | **`git add 课题2-个人手机多工况发热与掉电实测/` 之后、commit 之前，必跑** | 各扫描段无命中，图片 EXIF 全为 0 |
 
 ## 提交前必跑
 
@@ -12,14 +12,14 @@
 
 ```bash
 cd <已有仓库>            # 仓库内已有课题10 等内容
-git add 课题2/
-bash 课题2/scripts/scan_secrets.sh
-# 想连既有课题内容一起扫：bash 课题2/scripts/scan_secrets.sh --all
+git add 课题2-个人手机多工况发热与掉电实测/
+bash 课题2-个人手机多工况发热与掉电实测/scripts/scan_secrets.sh
+# 想连既有课题内容一起扫：bash 课题2-个人手机多工况发热与掉电实测/scripts/scan_secrets.sh --all
 git commit -m "添加课题2: P30 Pro 四工况30分钟耗电与发热对比（24组采样，公开脱敏版）"
 git push origin main
 ```
 
-`git grep` 需要 `.git` 存在，所以要在已 clone / 已初始化的仓库里跑；本场景**不需要 `git init`**，也不要用 `git add .`（会卷进课题10 的本地改动）。脚本默认只扫 `课题2/` 子目录，既有课题内容不改动、不重扫。
+`git grep` 需要 `.git` 存在，所以要在已 clone / 已初始化的仓库里跑；本场景**不需要 `git init`**，也不要用 `git add .`（会卷进课题10 的本地改动）。脚本默认只扫 `课题2-个人手机多工况发热与掉电实测/` 子目录，既有课题内容不改动、不重扫。
 
 ## 为什么扫描式是「通用形态」
 

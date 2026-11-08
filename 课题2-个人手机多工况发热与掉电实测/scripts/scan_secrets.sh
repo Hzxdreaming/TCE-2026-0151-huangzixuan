@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # 课题2 · 并入已有仓库后的提交前敏感串扫描
 # 用法（在仓库任意位置均可）：
-#   bash 课题2/scripts/scan_secrets.sh          # 默认只扫 课题2/ 子目录
-#   bash 课题2/scripts/scan_secrets.sh --all    # 全仓库扫描（含既有课题内容）
+#   bash 课题2-个人手机多工况发热与掉电实测/scripts/scan_secrets.sh          # 默认只扫 课题2-个人手机多工况发热与掉电实测/ 子目录
+#   bash 课题2-个人手机多工况发热与掉电实测/scripts/scan_secrets.sh --all    # 全仓库扫描（含既有课题内容）
 # 期望：各扫描段无命中，图片 EXIF 全为 0
 #
 # 说明：扫描式全部为「通用形态」，不含任何具体 SSID / 地名 / 设备名明文，
