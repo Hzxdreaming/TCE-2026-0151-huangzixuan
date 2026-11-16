@@ -28,6 +28,7 @@
 - evidence 留证归位：C1_R03_R15_REBUILT 包（未拆）、转码 WAV、source_*/chart_*、作废与校验副本共 20 份入 evidence/；13 份重建表不转正、不进 data/raw/
 - 续采 10 组（C1–C5 各 R04/R05），累计 25 组，每类工况 5 组；13 份重建表口径不变
 - 冻结 25 组输入并按固定种子抽签封存，清单见 analysis/seal_manifest.md；features.csv 由仓内定稿脚本生成，13 份重建表口径不变
+- 补时域特征脚本 time_features.py（25 行 / MD5 4f9e1073），频域冻结表 93a2bc75 未动；按细则 5×15 口径明早起补采 50 组并预备盲测/抗噪
 
 ## 2026-11-15
 
