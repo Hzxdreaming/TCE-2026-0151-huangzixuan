@@ -1,0 +1,15 @@
+﻿freq rows 75 groups 75 numeric_cols 56
+time rows 75 groups 75 numeric_cols 36
+aligned_groups 75
+feature_dim {92}
+holdout C1_R04 true C1 pred C4 hit 0
+holdout C2_R03 true C2 pred C5 hit 0
+holdout C3_R03 true C3 pred C5 hit 0
+holdout C4_R03 true C4 pred C5 hit 0
+holdout C5_R01 true C5 pred C5 hit 1
+blind_hit 1 / 5 (sample=5, method demo only, NOT a generalization claim)
+snr_db 20 mean_hit_rate 0.2
+snr_db 10 mean_hit_rate 0.2
+snr_db 0 mean_hit_rate 0.18
+reminder: synthetic noise on FEATURE vectors, not re-recorded signals;
+          no blade-frequency / physical claims; accuracy reported as-is
