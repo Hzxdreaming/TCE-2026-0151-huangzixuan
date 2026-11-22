@@ -1,0 +1,11 @@
+sample_id,ai_s,ai_status,ai_output_chars
+sample_01,1.589,OK,49
+sample_02,0.786,OK,29
+sample_03,3.439,OK,72
+sample_04,0.660,OK,50
+sample_05,1.216,OK,50
+sample_06,1.272,OK,44
+sample_07,2.237,OK,41
+sample_08,2.605,OK,34
+sample_09,0.827,OK,47
+sample_10,1.633,OK,61
